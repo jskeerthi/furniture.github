@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #3c3c3c;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #eee;
+  padding: 15px;
+  text-align: center;
+}
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.product {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 280px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product button {
+  background: #4CAF50;
+  color: pink;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product button:hover {
+  background: #388E3C;
+}
+.cart-section {
+  padding: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+h3#total-price {
+  text-align: right;
+  font-size: 1.2rem;
+  color: #333;
+}
+.contact-section {
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section input,
+.contact-section textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-section button {
+  width: fit-content;
+  background-color: #4CAF50;
+  color: yellow;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-info {
+  margin-top: 30px;
+  font-size: 16px;
+}
+.about-section {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  font-size: 18px;
+}
+
+.about-section h2 {
+  color: #4CAF50;
+  margin-top: 30px;
+}
+
+.about-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.about-section ul li {
+  margin-bottom: 10px;
+}
